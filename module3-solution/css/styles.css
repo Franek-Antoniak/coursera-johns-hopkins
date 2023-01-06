@@ -1,0 +1,74 @@
+h1 {
+    display: inline;
+}
+h1 {
+    font-size: 4em;
+}
+
+.navbar-header {
+    padding-bottom: 60px;
+}
+
+.bar-text {
+    font-size: 1.5em;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#chicken-div {
+    margin-top: -35px;
+    margin-bottom: 15px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#menu-div {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.jumbotron {
+    background: #e5cdcd;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .navbar-header {
+        padding-bottom: 35px;
+    }
+
+    #chicken-div {
+        margin-top: -10px;
+        margin-bottom: 15px;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .jumbotron {
+        margin: 10vw;
+    }
+
+    #collapsable-nav {
+        background-color: #fdf5f5;
+    }
+}
